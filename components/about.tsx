@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import { purpose, stats, team } from "@/lib/data";
 import { Reveal } from "./reveal";
 
@@ -88,5 +88,3 @@ export function About() {
     </section>
   );
 }
-
-

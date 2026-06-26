@@ -1,4 +1,4 @@
-﻿import {
+import {
   Apple,
   Award,
   BarChart3,
@@ -32,12 +32,12 @@ export type IconItem = {
 export const logo = "/assets/logo.png";
 
 export const navLinks = [
-  { label: "Inicio", href: "#inicio" },
-  { label: "Sobre Nosotros", href: "#sobre-nosotros" },
-  { label: "Servicios", href: "#servicios" },
-  { label: "Planes", href: "#planes" },
-  { label: "Testimonios", href: "#testimonios" },
-  { label: "Contacto", href: "#contacto" }
+  { label: "Inicio", href: "/" },
+  { label: "Sobre Nosotros", href: "/sobre-nosotros" },
+  { label: "Servicios", href: "/servicios" },
+  { label: "Planes", href: "/planes" },
+  { label: "Testimonios", href: "/testimonios" },
+  { label: "Contacto", href: "/contacto" }
 ];
 
 export const heroHighlights: IconItem[] = [
@@ -275,7 +275,7 @@ export const testimonials = [
     name: "José Daniel Vargas",
     location: "Choloma, Cortés",
     quote:
-      "Llegué sin motivación y hoy puedo decir que este cambio fue mi mejor decisión. Bajé grasa y gane confianza.",
+      "Llegué sin motivación y hoy puedo decir que este cambio fue mi mejor decisión. Bajé grasa y gané confianza.",
     result: "-15% grasa corporal",
     icon: BarChart3
   },
@@ -325,9 +325,3 @@ export const socialLinks = [
   { label: "Instagram", icon: Leaf, href: "#" },
   { label: "WhatsApp", icon: MessageCircle, href: "#" }
 ];
-
-
-
-
-
-

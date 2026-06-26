@@ -1,4 +1,4 @@
-﻿import { CalendarDays, Leaf } from "lucide-react";
+import { CalendarDays, Leaf } from "lucide-react";
 import Image from "next/image";
 import { heroHighlights } from "@/lib/data";
 import { Reveal } from "./reveal";
@@ -28,11 +28,11 @@ export function Hero() {
           </div>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-            <a href="#contacto" className="btn-primary">
+            <a href="/contacto" className="btn-primary">
               <CalendarDays size={18} />
               Agenda tu cita
             </a>
-            <a href="#planes" className="btn-secondary">
+            <a href="/planes" className="btn-secondary">
               Conoce nuestros planes
             </a>
           </div>
@@ -70,5 +70,3 @@ export function Hero() {
     </section>
   );
 }
-
-

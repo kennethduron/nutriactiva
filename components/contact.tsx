@@ -1,4 +1,4 @@
-﻿import { Lock, Send } from "lucide-react";
+import { Lock, Send } from "lucide-react";
 import Image from "next/image";
 import { contactInfo } from "@/lib/data";
 import { Reveal } from "./reveal";
@@ -82,5 +82,3 @@ export function Contact() {
     </section>
   );
 }
-
-

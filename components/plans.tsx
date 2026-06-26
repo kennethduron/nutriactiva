@@ -1,4 +1,4 @@
-﻿import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import { plans } from "@/lib/data";
 import { Reveal } from "./reveal";
 
@@ -45,7 +45,7 @@ export function Plans() {
                   </li>
                 ))}
               </ul>
-              <a href="#contacto" className={plan.featured ? "btn-primary mt-8 w-full" : "btn-secondary mt-8 w-full"}>
+              <a href="/contacto" className={plan.featured ? "btn-primary mt-8 w-full" : "btn-secondary mt-8 w-full"}>
                 Elegir plan
               </a>
             </Reveal>
@@ -55,5 +55,3 @@ export function Plans() {
     </section>
   );
 }
-
-

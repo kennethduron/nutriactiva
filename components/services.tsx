@@ -1,4 +1,4 @@
-﻿import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 import { services } from "@/lib/data";
 import { Reveal } from "./reveal";
@@ -49,5 +49,3 @@ export function Services() {
     </section>
   );
 }
-
-

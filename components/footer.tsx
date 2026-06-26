@@ -1,4 +1,5 @@
-﻿import Image from "next/image";
+import Image from "next/image";
+import Link from "next/link";
 import { contactInfo, logo, navLinks, socialLinks } from "@/lib/data";
 
 const footerServices = ["Plan Nutricional", "Entrenamiento", "Bienestar Integral", "Evaluación Física", "Seguimiento"];
@@ -36,9 +37,9 @@ export function Footer() {
           <h2 className="font-black uppercase">Enlaces rápidos</h2>
           <nav className="mt-5 grid gap-2 text-sm text-white/80">
             {navLinks.map((link) => (
-              <a key={link.href} href={link.href} className="hover:text-green-bright">
+              <Link key={link.href} href={link.href} className="hover:text-green-bright">
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
         </div>
@@ -70,5 +71,3 @@ export function Footer() {
     </footer>
   );
 }
-
-

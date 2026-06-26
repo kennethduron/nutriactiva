@@ -1,4 +1,4 @@
-﻿import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 import { programs, stats } from "@/lib/data";
 import { Reveal } from "./reveal";
@@ -35,7 +35,7 @@ export function Programs() {
                   </li>
                 ))}
               </ul>
-              <a href="#contacto" className="btn-primary mt-7 w-full">
+              <a href="/contacto" className="btn-primary mt-7 w-full">
                 Más información
               </a>
             </div>
@@ -57,5 +57,3 @@ export function Programs() {
     </section>
   );
 }
-
-

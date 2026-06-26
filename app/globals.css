@@ -25,10 +25,7 @@ html {
 
 body {
   margin: 0;
-  background:
-    radial-gradient(circle at 12% 8%, rgba(118, 184, 42, 0.1), transparent 28rem),
-    radial-gradient(circle at 88% 18%, rgba(217, 160, 25, 0.09), transparent 24rem),
-    #fbfcf8;
+  background: #fbfcf8;
   color: #0c2035;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -59,10 +56,22 @@ textarea {
 
 .section-title {
   color: #062a45;
-  font-size: clamp(2rem, 5vw, 3.8rem);
+  font-size: 2.1rem;
   font-weight: 900;
   line-height: 1.02;
   letter-spacing: 0;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 3.8rem;
+  }
 }
 
 .title-accent {

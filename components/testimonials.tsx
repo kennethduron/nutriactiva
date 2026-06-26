@@ -1,4 +1,4 @@
-﻿import { Star } from "lucide-react";
+import { Star } from "lucide-react";
 import { testimonials } from "@/lib/data";
 import { Reveal } from "./reveal";
 
@@ -31,7 +31,7 @@ export function Testimonials() {
                 <Star key={starIndex} size={18} fill="currentColor" />
               ))}
             </div>
-            <p className="mt-5 leading-7 text-ink/80">â€œ{testimonial.quote}â€</p>
+            <p className="mt-5 leading-7 text-ink/80">"{testimonial.quote}"</p>
             <div className="mt-6">
               <p className="font-black text-navy">{testimonial.name}</p>
               <p className="text-sm text-ink/60">{testimonial.location}</p>
@@ -46,5 +46,3 @@ export function Testimonials() {
     </section>
   );
 }
-
-
