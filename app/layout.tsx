@@ -29,21 +29,14 @@ export const metadata: Metadata = {
     title: "Nutri Activa Centro Metabólico",
     description:
       "Nutrición, entrenamiento y bienestar para transformar tu vida con planes personalizados y acompañamiento profesional.",
-    images: [
-      {
-        url: "/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Nutri Activa - Activa tu cuerpo, transforma tu vida"
-      }
-    ]
+    images: ["/assets/nutri-activa-og.jpg"]
   },
   twitter: {
     card: "summary_large_image",
     title: "Nutri Activa Centro Metabólico",
     description:
       "Nutrición, entrenamiento y bienestar para transformar tu vida con planes personalizados y acompañamiento profesional.",
-    images: ["/twitter-image.png"]
+    images: ["/assets/nutri-activa-og.jpg"]
   },
   icons: {
     icon: [
